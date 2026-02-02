@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.venv
+venv/
+ENV/
+.envrc
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.feather
+*.jsonl
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.dat
+*.faiss
+*.index
+
+# Environment files
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
+
+# Others
+*.bak
+*.swp
+*.tmp
+*.lock
+
+# Ignore data folder except specific files
+/data/*
+!data/chunks.json
+!data/faiss.index

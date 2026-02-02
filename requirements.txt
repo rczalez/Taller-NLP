@@ -1,0 +1,15 @@
+# Core app
+streamlit
+requests
+python-dotenv
+
+# RAG / embeddings
+sentence-transformers
+faiss-cpu
+
+# Document loaders
+pypdf
+python-docx
+
+# Utilities
+numpy
