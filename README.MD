@@ -50,8 +50,7 @@ Esto evita respuestas inventadas (alucinaciones) y mantiene el contenido control
 ### 1️⃣ Descargar o clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/course-chatbot-template.git
-cd course-chatbot-template
+git clone https://github.com/rczalez/Taller-NLP
 ```
 ### 2️⃣ Crear y activar un entorno virtual
 **Windows (PowerShell o CMD)**
@@ -89,6 +88,7 @@ Copia el archivo `env.example` y renómbralo como `.env`:
 
 ```bash
 GITHUB_TOKEN=tu_token_de_github
+GITHUB_MODELS_ENDPOINT=https://models.inference.ai.azure.com/chat/completions
 MODEL_NAME=Meta-Llama-3.1-8B-Instruct
 ```
 
@@ -142,7 +142,7 @@ Para utilizar un modelo diferente, edita el archivo `.env` y modifica la variabl
 
 ```env
 MODEL_NAME=Meta-Llama-3.1-8B-Instruct
-
+```
 ## 📁 Estructura del Proyecto
 
 La organización del proyecto es la siguiente:
