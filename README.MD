@@ -29,7 +29,7 @@ El chatbot utiliza:
 
 1. El profesor coloca los documentos del curso en la carpeta `docs/`
 2. La aplicación genera representaciones vectoriales (embeddings)
-3. Cuando un estudiante hace una pregunta:
+3. Cuando se hace una pregunta:
    - Se buscan los fragmentos más relevantes
    - El modelo genera la respuesta usando **solo esos fragmentos**
 
